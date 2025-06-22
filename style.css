@@ -130,3 +130,31 @@ body {
   margin: 0;
   text-align: center;
 }
+
+
+/* Quote section */
+
+.quote-section {
+  background-color: var(--quote-section-background);
+  padding: 100px 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  color: var(--quote-text-color);
+  text-align: start;
+  margin: 0;
+}
+
+.quote-by {
+  text-align: right;
+  margin: 0;
+  font-size: 18px;
+  color: var(--information-header-text);
+  font-weight: bold;
+}
+
