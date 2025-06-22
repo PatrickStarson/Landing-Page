@@ -4,7 +4,7 @@
 :root {
   --dark-background: #1F2937;
   --hero-text-color: #F9FAF8;
-  --secondary-text-color: #dbdbdb;
+  --secondary-text-color: #E5E7EB;
   --button-and-cta-bg-color: #3882F6;
   --information-header-text: #1F2937;
   --quote-section-background: #E5E7EB;
@@ -137,7 +137,7 @@ button {
 }
 
 .card p{
-  color: var(--secondary-text-color);
+  color: grey;
   text-align: center;
   margin: 0;
   text-align: center;
