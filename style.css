@@ -4,7 +4,7 @@
 :root {
   --dark-background: #1F2937;
   --hero-text-color: #F9FAF8;
-  --secondary-text-color: #b8b8b8;
+  --secondary-text-color: #dbdbdb;
   --button-and-cta-bg-color: #3882F6;
   --information-header-text: #1F2937;
   --quote-section-background: #E5E7EB;
@@ -158,3 +158,42 @@ body {
   font-weight: bold;
 }
 
+/* Call to action section */
+
+
+.cta-section {
+  padding: 40px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-container {
+  background-color: var(--button-and-cta-bg-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 100px;
+  border-radius: 8px;
+}
+
+.cta-text h3{
+  color: var(--hero-text-color);
+  margin: 0;
+}
+
+.cta-text p{
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  margin: 0;
+}
+.cta-container button{
+  background: none;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 3px 30px;
+  color: var(--secondary-text-color);
+  height: 35px;
+  align-self: flex-end;
+}
