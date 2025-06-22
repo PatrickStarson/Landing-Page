@@ -4,7 +4,7 @@
 :root {
   --dark-background: #1F2937;
   --hero-text-color: #F9FAF8;
-  --secondary-text-color: #E5E7EB;
+  --secondary-text-color: #b8b8b8;
   --button-and-cta-bg-color: #3882F6;
   --information-header-text: #1F2937;
   --quote-section-background: #E5E7EB;
@@ -94,9 +94,39 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px 200px 120px 200px;
+  gap: 20px;
+}
+
+.main-section h1{
+  color: var(--information-header-text);
+  font-size: 36px;
 }
 
 .card-section {
   display: flex;
   flex-direction: row;
+  gap: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  gap: 10px;
+}
+
+.card img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 4px solid var(--button-and-cta-bg-color);
+}
+
+.card p{
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin: 0;
+  text-align: center;
 }
