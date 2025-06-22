@@ -14,8 +14,74 @@
 body {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
+  margin: 0;
+  
 }
 
-h1 {
-  font-size: var(--hero-text-size-weight);
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-background);
+  padding: 20px 200px 120px 200px;
+  gap: 100px;
+}
+
+.logo-and-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+  object-fit: contain;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+  color: var(--secondary-text-color);
+}
+
+.page-introduction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.page-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;  
+}
+
+.page-info h1{
+  color: var(--hero-text-color);
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.page-info p{
+  color: var(--secondary-text-color);
+  font-size: 18px;
+  margin: 0;
+}
+
+.page-info button{
+  background-color: var(--button-and-cta-bg-color);
+  border: none;
+  color: var(--secondary-text-color);
+  padding: 10px 30px;
+  font-weight: bold;
+  border-radius: 8px;
+  align-self: flex-start;
+}
+
+.page-introduction img{
+  width: 50%;
 }
